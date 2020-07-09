@@ -1,0 +1,148 @@
+html {
+	background:url('background.jpg') no-repeat center center fixed ;
+}
+* {
+	margin:0;
+	padding:0;
+}
+#Webpage_2{
+	background:url('background_photo_2.jpg') no-repeat center center fixed ;
+}
+
+#Webpage_3{
+	background:url('background_photo_3.jpg') no-repeat center center fixed ;
+}
+#Body_Webpage_2,#Body_Webpage_3{
+	background-color:rgbd(0 ,0, 0, .2);
+}
+html,#Webpage_2,#Webpage_3{
+	background-color: blue;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size: cover;
+}
+body{
+	width: 80%;
+	margin: 1em auto;
+	color: white;
+	background-color:rgba(200,200,200, .6);
+	border: 0.5em solid ;
+	border-radius: 1em;
+	font-size: 16px;
+}
+header{
+	border-bottom: 12px solid white;
+	padding: 2em 2em 1em 2em;
+	display: flex;
+	flex-direction: space-end;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+header img {
+	display:inline;
+}
+
+header h1{
+	text-align:center;
+	font-size: 60px;
+	width: 100%;
+}
+
+nav ul{
+	text-align:center;
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	list-style: none;
+	margin:0;
+}
+nav li {
+	padding-top: 1.5em;
+	width: 80%;
+}
+nav a {
+	font-size: 30px;
+	padding:1em;
+	text-decoration: none;
+	color: white;
+}
+nav a:hover{
+	color: #000080;
+}
+main h1{
+	text-align: center;
+	padding:0.5em;
+	font-size:40px
+}
+main p{
+	font-size: 1.5em;
+	padding:0 1em 0 3em;
+}
+iframe, article img, section img{
+	border: 10px solid transparent;
+	border-image: url(border.jpg) 30 stretch;
+}
+
+figure{
+	width:30%;
+	text-indent: 0;
+	margin:0.5em;
+	padding:0.5em;
+}
+section{
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	align-items: center;
+}
+section p, section figure{
+	flex-basis:40%;
+}
+section h1{
+	flex-basis:100%;
+}
+table, th, td{
+	border:3px solid #ADD8E6;
+}
+th, td{
+	padding:5px;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#t01 th {
+    color: white;
+    background-color: blue;
+}
+
+td{
+	text-align:center;
+}
+th{
+	background-color: #29D2DF;
+}
+main table{
+	margin:1em;
+	width:100%;
+}
+
+
+#Webpage_2 main figure{
+	margin:0 auto;
+	width:50%;
+	text-align:center;
+	
+}
+main figure img{
+	width:100%;
+}
+footer p{
+	padding:2em;
+}
+table caption{
+	padding-left:2em;
+}

@@ -1,0 +1,58 @@
+html {
+	background:url('index_background.JPG') no-repeat center center fixed ;
+	background-color: blue;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size: cover;
+}
+header{
+	height:150px;
+	text-align:center;
+}
+header h1{
+	font-size:4em;
+	color:white;
+}
+
+main{
+	background-color:rgba(180 ,180, 180, .6);
+	border-top-style:solid;
+	border-bottom-style:solid;
+	border-bottom-color:white;
+	border-top-color:white;
+	border-top-width:20px;
+	border-bottom-width:20px;
+}
+
+main{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 600px;
+}
+main img{
+	display:inline-block;
+	margin:0 1% 0 1%;
+}
+figure{
+	position: relative;
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+figure figcaption{
+	text-align:center;
+	font-size:2em;
+	color:white;
+}
+footer p{
+	font-size:1em;
+	color:black;
+}
+figcaption:hover{
+	color: #000080;
+}
+figure a {
+	text-decoration:none;
+}
+
